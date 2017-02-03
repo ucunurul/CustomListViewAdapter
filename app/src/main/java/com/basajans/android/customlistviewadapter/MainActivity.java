@@ -28,10 +28,6 @@ public class MainActivity extends Activity {
 
     RatingBar rb;
 
-//    protected void onPreExecute(){
-//        json_url = "http://192.168.1.18/userapi/api/institutions/getinstitutions";
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
