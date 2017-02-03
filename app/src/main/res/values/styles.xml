@@ -1,0 +1,22 @@
+<resources>
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:scaleX">.5</item>
+        <item name="android:scaleY">.5</item>
+        <item name="android:max">5</item>
+        <item name="android:transformPivotX">0dp</item>
+        <item name="android:transformPivotY">0dp</item>
+        <item name="android:layout_alignLeft">@+id/tv_name</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

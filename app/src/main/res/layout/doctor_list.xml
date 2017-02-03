@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_listview"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/iv_doc_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_drname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignTop="@+id/iv_doc_pic"
+        android:layout_toRightOf="@+id/iv_doc_pic"
+        android:layout_toEndOf="@+id/iv_doc_pic" />
+
+    <TextView
+        android:id="@+id/tv_specialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Specialty"
+        android:textSize="14dp"
+        android:textColor="#5C5C5C"
+        android:layout_below="@+id/tv_drname"
+        android:layout_toRightOf="@+id/iv_doc_pic"
+        android:layout_toEndOf="@+id/iv_doc_pic" />
+
+</RelativeLayout>
